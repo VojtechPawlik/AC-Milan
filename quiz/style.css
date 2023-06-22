@@ -1,0 +1,54 @@
+.intro-section {
+    background-image: url(../img/qqq.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 375px 0;
+  }
+  
+  .intro-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .intro-image {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section {
+    padding: 100px 0;
+  }
+  body {
+    background-color: #ffffff;
+    
+  }
+  .btn {
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    border-color: black;
+  }
+  .aktivni {
+    color: rgb(228, 228, 228);
+  }
+  h1 {
+    text-align: center;
+  }
+  .tlacitko-home {
+    margin-top: 20px;
+  }
+  .odsazeni1 {
+    margin-top: 50px;
+  }
+  .frame {
+    border: 2px solid #ff1e00;
+    padding: 20px;
+    border-radius: 1cm;
+  }
+  .odsazeni {
+    margin-top: 100px;
+  }
+  body {
+    background-color: #fcecec;
+  }

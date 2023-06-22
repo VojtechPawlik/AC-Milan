@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AC Milan - Quiz</title>
+  <!-- Připojení Bootstrap 5 CSS souboru -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  
+
+  <!-- Připojení vlastního CSS souboru -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- Navigační menu -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img class="d-inline-block align-top" src="../img/A.C._Milan-Logo.wine.png" width="75" height="60"
+                    alt="AC Milán-logo">
+      <a class="navbar-brand" href="../index.html">Domů</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../hraci/index.html">Hráči</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../treneri/index.html">Trenéři</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../historie/index.html">Historie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../vybaveni/index.html">Vybavení</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aktivni" href="index.html">Quiz</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-light" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Úvodní sekce s obrázkem na pozadí -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+                <h1 class="text-outline">QUIZ</h1>
+                <h4 class="text-outline">JSI PŘIPRAVEN?</h4>
+          <a href="#acmilan" class="btn btn-light btn-lg tlacitko-home">Přejít na quiz</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <h2 class="text-center odsazeni1">QUIZ - AC MILAN</h2>
+    <form id="quiz-form">
+        <div class="form-group frame">
+            <label>1. V JAKÉM ROCE BYL KLUB ZALOŽEN?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" id="q1a1" value="Arabika">
+                <label class="form-check-label" for="q1a1">
+                   1899
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" id="q1a2" value="Robusta">
+                <label class="form-check-label" for="q1a2">
+                    1889
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question1" id="q1a3" value="Liberika">
+                <label class="form-check-label" for="q1a3">
+                    1879
+                </label>
+            </div>
+        </div>
+        <div class="form-group odsazeni1 frame">
+            <label>2. JAK SE JMENUJE AKTUÁLNÍ BRANKÁŘ?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" id="q2a1" value="Jížní Amerika">
+                <label class="form-check-label" for="q2a1">
+                    Simon Kjær
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" id="q2a2" value="Severní Amerika">
+                <label class="form-check-label" for="q2a2">
+                    Mike Maignan
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" id="q2a3" value="Střední Amerika">
+                <label class="form-check-label" for="q2a3">
+                    Patrik Luks
+                </label>
+            </div>
+        </div>
+        <div class="form-group odsazeni1 frame">
+            <label>3. JAK SE JMENUJE AKTUÁLNÍ TRENÉR?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question3" id="q3a1" value="3">
+                <label class="form-check-label" for="q3a1">
+                    Arrigo Sacchi
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question3" id="q3a2" value="2">
+                <label class="form-check-label" for="q3a2">
+                    Stefano Pioli
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question3" id="q3a3" value="1">
+                <label class="form-check-label" for="q3a3">
+                    Massimiliano Allegri
+                </label>
+            </div>
+        </div>
+        <div class="form-group odsazeni1 frame">
+            <label>4. KOLIKRÁT KLUB VYHRÁL LIGU MISTRŮ?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question4" id="q4a1" value="7. století Uganda">
+                <label class="form-check-label" for="q4a1">
+                    5 krát
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question4" id="q4a2" value="8. století Honduras">
+                <label class="form-check-label" for="q4a2">
+                    6 krát
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question4" id="q4a3" value="9. století Etiopie">
+                <label class="form-check-label" for="q4a3">
+                    7 krát
+                </label>
+            </div>
+        </div>
+        <div class="form-group odsazeni1 frame">
+            <label>5. JEKÉ JSOU TYPICKÉ BARVY PRO TENTO KLUB?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question5" id="q5a1" value="Cafe Botaniqa">
+                <label class="form-check-label" for="q5a1">
+                    Červená x Černá
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question5" id="q5a2" value="Fox coffee">
+                <label class="form-check-label" for="q5a2">
+                    Červená x Modrá
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="question5" id="q5a3" value="La Cafe">
+                <label class="form-check-label" for="q5a3">
+                    Červená x Zelená
+                </label>
+            </div>
+        </div>
+        <!-- Pokračujte s dalšími otázkami -->
+        
+        <button type="submit" class="btn btn-dark odsazeni1">Zkontrolovat</button>
+    </form>
+    <div id="results" class="mt-4"></div>
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    document.getElementById('quiz-form').addEventListener('submit', function(e) {
+        e.preventDefault(); // Zamezíme odeslání formuláře
+        
+        // Správné odpovědi
+        const correctAnswers = {
+            question1: 'Arabika',
+            question2: 'Severní Amerika',
+            question3: '2',
+            question4: '9. století Etiopie',
+            question5: 'Cafe Botaniqa',
+            // Přidejte správné odpovědi pro další otázky
+        };
+        
+        // Porovnání vybraných odpovědí s odpověďmi uloženými v objektu
+        let score = 0;
+        const formData = new FormData(this);
+        for (const entry of formData.entries()) {
+            const question = entry[0];
+            const answer = entry[1];
+            
+            if (correctAnswers[question] === answer) {
+                score++;
+            }
+        }
+        
+        // Zobrazení výsledků
+        const resultsDiv = document.getElementById('results');
+        resultsDiv.innerHTML = `<h3>Vaše skóre: ${score}/${Object.keys(correctAnswers).length}</h3>`;
+    });
+</script>
+</main>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+<footer>
+    <hr>
+    <p class="text-center">&copy; 2023 - <i> Vojtěch Pawlik</i>, <b>IT1</b>&#xAE;</p>
+  </footer>
+</body>
+</html>

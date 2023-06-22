@@ -1,0 +1,92 @@
+.intro-section {
+    background-image: url(../img/idk.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 375px 0;
+  }
+  
+  .intro-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .intro-image {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section {
+    padding: 100px 0;
+  }
+  
+  .box {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .box img {
+    max-width: 100%;
+  }
+  body {
+    background-color: #ffffff;
+    
+  }
+  h2 {
+    text-align: center;
+  }
+.hraci {
+    border-radius: 1cm;
+}
+.treneri {
+    border-radius: 1cm;
+}
+.historie {
+    border-radius: 1cm;
+}
+.vybaveni {
+    border-radius: 1cm;
+}
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    border-color: black;
+}
+h2 {
+    text-align: center;
+}
+.formace {
+    text-align: center;
+}
+.velikost {
+  width: 450px;
+  height: auto;
+  border-radius: 1cm;
+}
+  .aktivni {
+    color: rgb(228, 228, 228);
+  }
+  .mike {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .tlacitko-home {
+    margin-top: 20px;
+  }
+  .odsazeni {
+    margin-top: 100px;
+  }
+  .odsazeni1 {
+    margin-top: 50px;
+  }
+  .frame {
+    border: 2px solid #ff1e00;
+    padding: 20px;
+    border-radius: 1cm;
+  }
+  h3 {
+    text-align: center;
+  }
